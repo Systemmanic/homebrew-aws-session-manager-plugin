@@ -6,8 +6,11 @@ For installing the https://docs.aws.amazon.com/systems-manager/latest/userguide/
 
 == Installation
 
-. `brew tap dkanejs/aws-session-manager-plugin`
-. `brew install aws-session-manager-plugin`
+Now part of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/session-manager-plugin.rb[Hombrew Cask].
+
+Install with brew: 
+
+`brew cask install session-manager-plugin`
 
 You can verify installation by running:
 
