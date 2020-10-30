@@ -5,18 +5,11 @@ on:
   pull_request:
 jobs:
   test:
-    runs-on: ubuntu-latest
-    container:
-      image: homebrew/ubuntu20.04:master
-    env:
-      HOMEBREW_CORE_GIT_REMOTE: ${{github.event.repository.html_url}}
-      HOMEBREW_FORCE_HOMEBREW_ON_LINUX: 1
+    name: Test MacOS
+    runs-on: macos-latest
     steps:
-      - name: Set up Homebrew
-        uses: Homebrew/actions/setup-homebrew@master
+     - name: Set up Homebrew
+       uses: Homebrew/actions/setup-homebrew@master
 
-      - name: Run brew test-bot
-        run: |
-          mkdir ~/bottles
-          cd ~/bottles
-          brew test-bot --only-formulae
+     - name: Test Formula
+       run: brew test-bot
