@@ -6,7 +6,7 @@ For installing the https://docs.aws.amazon.com/systems-manager/latest/userguide/
 
 == Installation
 
-. `brew tap dkanejs/aws-session-manager-plugin`
+. `brew tap syncdk/aws-session-manager-plugin`
 . `brew install aws-session-manager-plugin`
 
 You can verify installation by running:
