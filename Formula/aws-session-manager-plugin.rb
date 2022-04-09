@@ -1,9 +1,9 @@
 class AwsSessionManagerPlugin < Formula
   desc "Official Amazon AWS session manager plugin"
   homepage "https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html"
-  url "https://s3.amazonaws.com/session-manager-downloads/plugin/1.2.7.0/mac/sessionmanager-bundle.zip"
+  url "https://s3.amazonaws.com/session-manager-downloads/plugin/1.2.312.0/mac/sessionmanager-bundle.zip"
 
-  sha256 "1cffa8a4d8d2e77cd1f5e531a4d507183f6b64dd73ee50dcebe9ce351f1f6bfb"
+  sha256 "50aac34a4dedddf20c20be24989ee5d33b46a72187791715fb9b395b54db8ef9"
 
   depends_on "awscli"
 
